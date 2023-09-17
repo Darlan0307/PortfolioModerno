@@ -10,4 +10,4 @@ function ativaLetra(elemento){
 
 const titulo = document.querySelector('.digitando');
 
-setInterval(()=>ativaLetra(titulo),4000);
+setInterval(()=>ativaLetra(titulo),6000);
