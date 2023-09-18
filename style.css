@@ -30,6 +30,7 @@ header{
 header h1{
     color: #dc3545;
     font-size: 2.5rem;
+    
 }
 
 header span{
@@ -94,10 +95,11 @@ header .navegacao-primaria li a{
     max-width: 100%;
     border-radius: 20px;
     justify-self: center;
+    animation: sobeSecao .5s ease-in-out forwards;
+    filter: brightness(90%);
     /* mod */
     margin-top: -5rem;
-    animation: sobeSecao .5s ease-in-out forwards;
-    filter: brightness(70%);
+    width: 250px;
      
 }
 .digitando::after{
@@ -266,4 +268,37 @@ main .sobre{
     to{
         transform: translate3d(0,0,0);
     }
+}
+
+
+/* Responsivo */
+@media(max-width:992px){
+
+    header .navegacao-primaria{
+        display: none;
+    }
+
+    header i{
+        color: #f7f7f7;
+        font-size: 3rem;
+    }
+
+    .section-div{
+        background:black url(img/bg-2.jpg) no-repeat center center;
+        background-size: cover;
+        grid-template-columns:repeat(auto-fill,250px);
+    }
+
+    .section-div img{
+        display: none;
+    }
+
+    .sobre img{
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+    .sobre_conteudo{
+        grid-column: 1/-1;
+    }
+
 }
