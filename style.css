@@ -39,16 +39,36 @@ header span{
 
 header .navegacao-primaria{
     display: flex;
-    gap: 10px;
+    gap: 30px;
     align-items: center;
     
 }
 
 header .navegacao-primaria li a{
-    padding: 10px;
+    width: 0px;
+    height: 0px;
     color: #fff;
     font-size: 1.3rem;
 }
+
+header .navegacao-primaria li a::after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-bottom: 4px solid transparent;
+    transition: .9s;
+    display: block;
+
+}
+
+header .navegacao-primaria li a:hover::after{
+    width: 100%;
+    height: 0px;
+    padding: 0px;
+    border-bottom: 4px solid #dc3545;
+}
+
+
 
 /* Dowload CV seção */
 
@@ -98,9 +118,7 @@ header .navegacao-primaria li a{
     animation: sobeSecao .5s ease-in-out forwards;
     filter: brightness(90%);
     /* mod */
-    margin-top: -5rem;
-    width: 250px;
-     
+    width: 250px;    
 }
 .digitando::after{
     content: '|';
@@ -183,10 +201,11 @@ main .sobre{
 .sobre img{
     cursor: pointer;
     grid-row: 2;
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 5px;
     filter: blur(0);
     animation: ladoSecao .5s ease-in-out forwards;
+    
     
 }
 .sobre img:hover{
@@ -274,6 +293,11 @@ main .sobre{
 /* Responsivo */
 @media(max-width:992px){
 
+    header{
+        justify-content: space-between;
+        padding: 30px 50px;
+    }
+    
     header .navegacao-primaria{
         display: none;
     }
@@ -281,6 +305,21 @@ main .sobre{
     header i{
         color: #f7f7f7;
         font-size: 3rem;
+    }
+
+    header .navegacao-primaria.ativado {
+        background: linear-gradient(rgba(43,42,42,0.176),rgba(46,46,46,0.724));
+        display: grid;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        color: white;
+        z-index: 1;
+        padding: 30px;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border-radius: 0 0 4px 4px;
+        animation: sobeSecao .8s ease-in-out forwards;
     }
 
     .section-div{
@@ -296,6 +335,8 @@ main .sobre{
     .sobre img{
         grid-column: 1/-1;
         justify-self: center;
+        /* mod */
+        width: 200px;
     }
     .sobre_conteudo{
         grid-column: 1/-1;
@@ -333,6 +374,7 @@ main .sobre{
     gap: 30px;
     text-align: center;
     max-width: 300px;
+    min-width: 220px;
     height: 300px;
     align-content: center;
     background-color: #222;
