@@ -440,3 +440,123 @@ main .sobre{
 .my_resume{
     color: white;
 }
+
+.resume_generico{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.resume_generico h2{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    background-color: #ff5d56;
+    justify-self: start;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.resume_generico h2 i{
+    margin-left: 10px;
+}
+
+.experience{
+    margin-bottom: 30px;
+    grid-column: 1;
+    grid-row: 1;
+}
+.education{
+    margin-bottom: 30px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.experience_content ul{
+    color:#ff5d56;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.resume_generico .experience_content div{
+    background-color: #222;
+    padding: 40px;
+    position: relative;
+}
+
+.resume_generico .experience_content div::before{
+    content: '';
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #222;
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    display: inline-block;
+}
+
+.resume_generico .experience_content div span{
+    color: #dc3545;
+    font-family: 'Poppins';
+    font-family: bold;
+}
+
+.resume_generico .experience_content div h3{
+    font-family: 'Poppins';
+    margin: 10px 0;
+}
+
+.resume_generico .experience_content div p{
+    color: #707070;
+    font-size: 1.1rem;
+}
+
+
+/* Meus diplomas e Cursos */
+
+.education_content ul{
+    color:#ff5d56;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.resume_generico .education_content div{
+    background-color: #222;
+    padding: 40px;
+    position: relative;
+}
+
+.resume_generico .education_content div::before{
+    content: '';
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #222;
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    display: inline-block;
+}
+
+.resume_generico .education_content div span{
+    color: #dc3545;
+    font-family: 'Poppins';
+    font-family: bold;
+}
+
+.resume_generico .education_content div h3{
+    font-family: 'Poppins';
+    margin: 10px 0;
+}
+
+.resume_generico .education_content div p{
+    color: #707070;
+    font-size: 1.1rem;
+}
