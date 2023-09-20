@@ -311,7 +311,7 @@ main .sobre{
         background: linear-gradient(rgba(43,42,42,0.176),rgba(46,46,46,0.724));
         display: grid;
         position: absolute;
-        top: 80px;
+        top: 110px;
         right: 20px;
         color: white;
         z-index: 1;
