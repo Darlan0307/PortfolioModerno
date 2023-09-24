@@ -692,3 +692,48 @@ main .sobre{
     font-weight: bold;
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
 }
+
+@media (max-width:1089px){
+    .resume_generico .experience_content,.education_content{
+        justify-self: center;
+        grid-column: 1/-1;
+    }
+    .resume_generico .education{
+        grid-column: 1/-1;
+        grid-row: 3;
+        justify-self: center;
+        margin: 30px 0;
+    }
+    .resume_generico .experience{
+        grid-column: 1/-1;
+        grid-row: 1;
+        justify-self: center;
+    }
+
+    .cursos{
+        grid-template-columns: 1fr;
+    }
+
+    .cursos .funfacts h2{
+        justify-self: center;
+    }
+
+    .cursos .funfacts{
+        margin-bottom: 30px;
+        text-align: center;
+        grid-template-columns: 1fr;
+        justify-self: center;
+        grid-column: 1/-1;
+    }
+
+    .cursos .my_skill h2{
+        justify-self: center;
+    }
+
+    .cursos .my_skill{
+        text-align: center;
+        grid-template-columns: 1fr;
+        justify-self: center;
+        grid-column: 1/-1;
+    }
+}
