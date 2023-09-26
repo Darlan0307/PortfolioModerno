@@ -657,6 +657,12 @@ main .sobre{
     gap: 30px;
 }
 
+@media(max-width:500px){
+    .funfacts ul{
+        grid-template-columns: 1fr;
+    }
+}
+
 .funfacts ul li{
     background-color: #222;
     border: 3px solid #2f2b2b;
@@ -751,6 +757,10 @@ main .sobre{
     gap: 30px;
 }
 
+.projects_models ul{
+    flex-wrap: wrap;
+}
+
 .projects_models ul li{
     cursor: pointer;
     font-family: "Poppins",Arial, Helvetica, sans-serif;
@@ -809,6 +819,18 @@ main .sobre{
     100%{
         opacity: 1;
         transform: translate3d(0,0,0);
+    }
+}
+
+@media(max-width:620px){
+    .projects_armazenamentos ul{
+        grid-template-columns: 1fr;
+    }
+
+    .projects_armazenamentos ul li img{
+        width: 250px;
+        display: block;
+        margin: 0 auto;
     }
 }
 
