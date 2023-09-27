@@ -9,16 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
+    <header id="home">
         <h1>Project <span>Hub</span></h1>
         <nav>
             <ul aria-label="Navegação primária" class="navegacao-primaria">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#princing">Princing</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#resume">Resumo</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
             <i class="fa-solid fa-bars"></i>
         </nav>
@@ -30,15 +29,15 @@
             <h2>Hi There! I'm</h2>
             <h2 class="digitando">web and software developer</h2>
             <p>Bem-vindo ao meu portfólio, aqui você consegue me conhecer um pouco e ver todos os meus projetos na área da tecnologia.</p>
-            <a href="#">Dowload CV</a>
+            <!-- <a href="#">Dowload CV</a> -->
         </div>
         <img src="img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg" alt="Imagem de um laptop">
     </section>
     <main>
-        <article aria-label="seção sobre mim" class="sobre">
+        <article aria-label="seção sobre mim" class="sobre" id="about">
             <div class="sobre_titulo">
                 <h1>Sobre Mim</h1>
-                <p>Perfil profissional - tudo sobre mim</p>
+                <p>Perfil profissional - Tudo sobre mim</p>
                 <div aria-label="seção apenas de ilustrações de botões">
                     <span></span>
                     <span></span>
@@ -49,24 +48,24 @@
             <div class="sobre_conteudo">
                 <div class="sobre_texto">
                     <h1>Eu me chamo Darlan Martins</h1>
-                    <p>tenho 18 anos, estou atualmente cursando Análise e Desenvolvimento de Sistemas, amo programar e desenvolver software, projetos e sites com diversas tecnologias.</p>
+                    <p>Tenho 18 anos, estudo programação há mais ou menos 1 ano, estou atualmente cursando Análise e Desenvolvimento de Sistemas, amo programar e desenvolver software, projetos e sites com diversas tecnologias.</p>
                 </div>
                 <div class="sobre_info">
-                    <p><i class="fa-solid fa-calendar-days"></i>Lorem, ipsum dolor.</p>
-                    <p><i class="fa-sharp fa-solid fa-laptop-code"></i>Lorem, ipsum dolor.</p>
-                    <p><i class="fa-solid fa-location-dot"></i>Lorem, ipsum dolor.</p>
-                    <p><i class="fa-sharp fa-solid fa-globe"></i>Lorem, ipsum dolor.</p>
-                    <p><i class="fa-solid fa-flag"></i>Lorem, ipsum dolor.</p>
-                    <p><i class="fa-solid fa-phone-volume"></i>Lorem, ipsum dolor.</p>
-                    <p><i class="fa-solid fa-envelope"></i>Lorem, ipsum dolor.</p>
+                    <p><i class="fa-solid fa-city"></i>Jaboatão dos Guararapes</p>
+                    <p><i class="fa-sharp fa-solid fa-laptop-code"></i>Programador</p>
+                    <p><i class="fa-solid fa-location-dot"></i>Pernambuco</p>
+                    <p><i class="fa-regular fa-face-laugh-wink"></i>Disponível</p>
+                    <p><i class="fa-solid fa-flag"></i>brasileiro</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>(81) 98667-8255</p>
+                    <!-- <p><i class="fa-solid fa-envelope"></i>darlan</p> -->
                 </div>
             </div>
         </article>
     </main>
-    <section class="services">
+    <section class="services" >
         <div class="sobre_titulo">
-            <h1>Sobre Mim</h1>
-            <p>Perfil profissional - tudo sobre mim</p>
+            <h1>Serviços</h1>
+            <p>Áreas de conhecimento (básico - Avançado)</p>
             <div aria-label="seção apenas de ilustrações de botões">
                 <span></span>
                 <span></span>
@@ -78,18 +77,8 @@
                 <li>
                     <i class="fa-solid fa-globe"></i>
                     <h3>Web Developer</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, debitis.</p>
-                </li>
-                <li>
-                    <i class="fa-sharp fa-solid fa-pen-to-square"></i>
-                    <h3>Front-End</h3>
-                    <p>criação da interface visual e interativa de sites e aplicativos web, utilizando tecnologias como HTML, CSS e JavaScript.</p>
-                </li>
-                <li>
-                    <i class="fa-sharp fa-solid fa-pen-to-square"></i>
-                    <h3>data analyst</h3>
-                    <p>Coleta, análise e interpretação de dados para ajudar a tomar decisões</p>
-                </li>
+                    <p>Criação e manutenção de sites usando tecnologias como HTML, CSS e JavaScript</p>
+                </li>           
                 <li>
                     <i class="fa-solid fa-layer-group"></i>
                     <h3>SEO Analyst</h3>
@@ -101,17 +90,27 @@
                     <p>Design visual e estético de sites, criação de layouts, gráficos e elementos de interface de usuário</p>
                 </li>
                 <li>
+                    <i class="fa-sharp fa-solid fa-pen-to-square"></i>
+                    <h3>Front-End</h3>
+                    <p>Criação da interface visual e interativa de sites e aplicativos web, utilizando tecnologias como HTML, CSS e JavaScript.</p>
+                </li>
+                <li>
                     <i class="fa-sharp fa-solid fa-palette"></i>
                     <h3>UX/UI</h3>
                     <p>UX concentra-se na experiência do usuário, enquanto UI trata do design da interface do usuário.</p>
                 </li>
+                <li>
+                    <i class="fa-sharp fa-solid fa-pen-to-square"></i>
+                    <h3>Data Analyst</h3>
+                    <p>Coleta, análise e interpretação de dados para ajudar a tomar decisões</p>
+                </li>
             </ul>
         </div>
     </section>
-    <div class="my_resume">
+    <div class="my_resume" id="resume">
         <div class="sobre_titulo">
-            <h1>My Resume</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1>Resumo</h1>
+            <p>Um pouco sobre minhas colaborações e formações</p>
             <div aria-label="seção apenas de ilustrações de botões">
                 <span></span>
                 <span></span>
@@ -119,19 +118,19 @@
             </div>
         </div>
         <div class="resume_generico">
-            <h2 class="experience"><i class="fa-solid fa-handshake"></i>Experiência</h2>
+            <h2 class="experience"><i class="fa-solid fa-handshake"></i>Colaboração</h2>
             <div class="experience_content">
                 <div>
-                    <span>2017 - 2019</span>
-                    <h3>UI/UX Developer - Themeforest</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, totam.</p>
+                    <span>2023</span>
+                    <h3>Front-End</h3>
+                    <p>Site desenvolvido utilizando técnicas de engenharia de requisitos para obter requisitos funcionais e não funcionais com a colaboração dos membros da equipe</p>
                 </div>
                 <div>
-                    <span>2022 - 2019</span>
-                    <h3>Web Developer - Themeforest</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, totam.</p>
+                    <span>2023</span>
+                    <h3>Software Document</h3>
+                    <p>Desenvolvimento de um documento de sofware, completo sobre uma biblioteca WEB (Link na área de projetos)</p>
                 </div>
-                <div>
+                <!-- <div>
                     <span>2017 - 2019</span>
                     <h3>Data analyst - Themeforest</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, totam.</p>
@@ -140,25 +139,25 @@
                     <span>2017 - 2019</span>
                     <h3>UI/UX Developer - Themeforest</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, totam.</p>
-                </div>
+                </div> -->
                 <ul>
                     <li><i class="fa-solid fa-sharp fa-circle"></i></li>
                     <li><i class="fa-solid fa-sharp fa-circle"></i></li>
-                    <li><i class="fa-solid fa-sharp fa-circle"></i></li>
-                    <li><i class="fa-solid fa-sharp fa-circle"></i></li>
+                    <!-- <li><i class="fa-solid fa-sharp fa-circle"></i></li>
+                    <li><i class="fa-solid fa-sharp fa-circle"></i></li> -->
                 </ul>
             </div>
             <h2 class="education"><i class="fa-solid fa-book"></i>Educação</h2>
             <div class="education_content">
                 <div>
-                    <span>2022</span>
+                    <span>2023</span>
                     <h3>Superior - ADS</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, non!</p>
+                    <p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas, no Centro Universitário Brasileiro Unibra</p>
                 </div>
                 <div>
-                    <span>2015 - 2019</span>
+                    <span>2019 - 2022</span>
                     <h3>Ensino médio - BCM</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, non!</p>
+                    <p>Antes da faculdade, cursei o ensino médio na escola de referência Erem Professor Benedito Cunha Melo.</p>
                 </div>
                 <ul>
                     <li><i class="fa-solid fa-sharp fa-circle"></i></li>
@@ -176,7 +175,7 @@
                         <li><i class="fa-sharp fa-solid fa-star"></i></li>
                         <li><i class="fa-sharp fa-solid fa-star"></i></li>
                         <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star-half-stroke"></i></li>
                     </ul>
                 </div>
                 <div class="skill_content">
@@ -195,15 +194,25 @@
                         <li><i class="fa-sharp fa-solid fa-star"></i></li>
                         <li><i class="fa-sharp fa-solid fa-star"></i></li>
                         <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star-half-stroke"></i></li>
                     </ul>
                 </div>
                 <div class="skill_content">
-                    <h3>HTML 5</h3>
+                    <h3>SQL</h3>
                     <ul>
                         <li><i class="fa-sharp fa-solid fa-star"></i></li>
                         <li><i class="fa-sharp fa-solid fa-star"></i></li>
                         <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                        
+                    </ul>
+                </div>                
+                <div class="skill_content">
+                    <h3>PYTHON</h3>
+                    <ul>
                         <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                        <li><i class="fa-sharp fa-solid fa-star"></i></li>                        
                     </ul>
                 </div>                
             </div>
@@ -212,32 +221,32 @@
                 <ul>
                     <li>
                         <i class="fa-solid fa-mug-hot"></i>
-                        <span>1235</span>
-                        <p>Happy Clients</p>
+                        <span>4</span>
+                        <p>Trabalho em Equipe</p>
                     </li>
                     <li>
                         <i class="fa-solid fa-medal"></i>
-                        <span>11</span>
-                        <p>Medal Project</p>
+                        <span>8</span>
+                        <p>Medalhas de Projetos</p>
                     </li>
                     <li>
                         <i class="fa-solid fa-user"></i>
-                        <span>6025</span>
-                        <p>User Rattings</p>
+                        <span>20</span>
+                        <p>Avaliações</p>
                     </li>
                     <li>
                         <i class="fa-solid fa-users"></i>
-                        <span>289</span>
-                        <p>Awards Achived</p>
+                        <span>3</span>
+                        <p>Prêmios Alcançados</p>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    <section class="projects">
+    <section class="projects" id="portfolio">
         <div class="sobre_titulo">
-            <h1>My Projects</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1>Meus Projetos</h1>
+            <p>Conheça alguns dos meus projetos</p>
             <div aria-label="seção apenas de ilustrações de botões">
                 <span></span>
                 <span></span>
@@ -254,7 +263,10 @@
         </div>
         <div class="projects_armazenamentos">
             <ul aria-label="Navegação de projetos e WebSites">
-                <li id="websites"><img src="img-projetos/hero-png.png" alt="Site sobre uma escola de JAZZ"></li>
+                <li id="websites">
+                    <img src="img-projetos/hero-png.png" alt="Site sobre uma escola de JAZZ">
+                    <!-- <i class="fa-solid fa-users"></i> -->
+                </li>
                 <li id="websites"><img src="img-projetos/biblioteca-1024x683.jpg" alt="Site de uma biblioteca Virtual"></li>
                 <li id="websites"><img src="img-projetos/login.png" alt="Tela de login responsiva"></li>
                 <li id="websites"><img src="img-projetos/discord.jpeg" alt="Landing page de um bot do discord"></li>
@@ -264,26 +276,24 @@
                 <li id="automation"><img src="img-projetos/WEBsCRAPING.jpeg" alt="Automação WEB com python"></li>
             </ul>
         </div>
-        <a href="#">Load More Portfólio</a>
+        <a href="https://darlan0307.github.io/miniProjetos-JS/" target="_blank">Mais Projetos</a>
     </section>
 
-    <footer>
+    <footer id="contact">
         <div class="sobre_titulo">
             <h1>Project Hub</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, hic.</p>
+            <p>Se quiser me conhecer melhor ou conversar comigo, basta me seguir nas redes sociais.</p>
 
         </div>
         <nav aria-label="navegação de links sociais">
             <ul class="footer_sociais">
-                <li><i class="fa-brands fa-linkedin-in"><a href="#"></a></i></li>
-                <li><i class="fa-brands fa-github-alt"><a href="#"></a></i></li>
-                <li><i class="fa-brands fa-instagram"><a href="#"></a></i></li>
+                <li><a href="https://www.linkedin.com/in/darlan-martins-8a7956259/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/Darlan0307?tab=repositories" target="_blank"><i class="fa-brands fa-github-alt"></i></a></li>
+                <li><a href="https://www.instagram.com/darlan_sw_/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
         </nav>
         <p class="footer_comerciais">Todos os direitos reservados - PROJECT HUB &copy; - 2023</p>
     </footer>
-    
-
     <script src="script.js"></script>
 </body>
 </html>

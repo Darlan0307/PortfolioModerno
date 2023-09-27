@@ -776,6 +776,7 @@ main .sobre{
     font-weight: bold;
 }
 
+
 .projects_armazenamentos ul {
     display: grid;
     margin-top: 60px;
@@ -788,6 +789,7 @@ main .sobre{
     display: none;
     max-width: 100%;
     height: 100%;
+    position: relative;
 }
 
 .projects_armazenamentos ul li.ativo{
@@ -801,6 +803,12 @@ main .sobre{
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* .projects_armazenamentos ul li i{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+} */
 
 .projects a{
     background-color: #222;
