@@ -1,2 +1,2 @@
 # PortfolioModerno
- Portfólio moderno onde falo sobre mim, minhas experiências em projetos e em tecnologias.
+ Este portfólio apresenta minhas experiências em projetos e tecnologias.
