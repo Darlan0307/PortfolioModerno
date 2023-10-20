@@ -146,3 +146,6 @@ buttonGeral.forEach((item)=>{
     })
 })
 
+showList(listaAll,"websites");
+
+
